@@ -31,13 +31,23 @@ ul {
     list-style-type: none;
 }
 ul li {
-    background: url('../img/hamburger.png') no-repeat left center;
-    background-size: 25.6px 25.6px;
-    padding-left: 35.2px;
-    padding-top: 10px;
+    display: inline-block;
+    background: url('../img/hamburger.png') no-repeat left center ;
+    background-size: 26px 26px;
+    padding-left: 35px;
+    padding-top: 25px;
+    margin: 10px;
+    /*border: 2px solid #FDCC8C;*/
+    background-color: darkorange;
+    width: 100px;
 
 }
 
+ul li:hover {
+    background-color: #734202;
+    color: white;
+
+}
 footer {
     text-align: center;
 }
