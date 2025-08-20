@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+p {
+
+    font-family: 'Montserrat', sans-serif;
+}
+footer {
+    background-color: lightgray;
+
+}
+
+body {
+    background-color: yellow;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Barriecito', sans-serif;
+    border: solid 2px darkblue;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+   padding: 4px;
+}
+ul {
+    list-style-type: none;
+}
+ul li {
+    background: url('../img/hamburger.png') no-repeat left center;
+    background-size: 25.6px 25.6px;
+    padding-left: 35.2px;
+    padding-top: 10px;
+
+}
+
+footer {
+    text-align: center;
+}
+
+
