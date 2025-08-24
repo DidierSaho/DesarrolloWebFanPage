@@ -52,4 +52,29 @@ footer {
     text-align: center;
 }
 
+#grilla {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+}
 
+#grilla article {
+    border: 5px solid #ccc;
+    border-radius: 8px;
+    border-color: darkblue;
+    padding: 15px;
+    text-align: center;
+    background-color: #fdfdfd;
+}
+
+#grilla article:hover {
+    background-color: #F5CC27;
+}
+
+#grilla img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
