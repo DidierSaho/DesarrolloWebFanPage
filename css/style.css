@@ -49,11 +49,15 @@ ul li {
     border-radius: 10px;
     border: 3px solid darkblue;
 
+
+
 }
 
 ul li:hover {
     background-color: #FFD300;
     color: white;
+    scale: 100%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
 
 }
 footer {
@@ -77,6 +81,8 @@ footer {
 
 .grilla article:hover {
     background-color: #F5CC27;
+    scale: 120%;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.8);
 }
 
 .grilla img {
